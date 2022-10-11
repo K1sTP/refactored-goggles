@@ -1,0 +1,7 @@
+git init
+cp assets/post-commit .git/hooks/post-commit
+git remote add origin git@github.com:K1sTP/refactored-goggles.git
+git checkout -b main
+git add .
+git commit -m "init"
+git push -f origin main
